@@ -1,0 +1,10 @@
+[
+  {
+    "command": [
+      "/usr/bin/alacritty",
+      "--config-file",
+      "/home/zzelav/.config/i3/alacritty/alacritty.yml"
+    ],
+    "working_directory": "/home/zzelav"
+  }
+]
