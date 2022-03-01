@@ -137,7 +137,7 @@ alias gcl='git clone'
 alias gi='git init'
 alias ga='git add'
 alias gc='git commit -m'
-alias gp='git push origin master'
+alias gp='git push'
 
 # power
 alias i0='sudo shutdown now'
