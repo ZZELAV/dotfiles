@@ -138,6 +138,7 @@ alias gi='git init'
 alias ga='git add'
 alias gc='git commit -m'
 alias gp='git push'
+alias gs='git status'
 
 # power
 alias i0='sudo shutdown now'
