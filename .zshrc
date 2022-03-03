@@ -156,3 +156,6 @@ alias .='cd ..'
 alias ..='cd ../..'
 alias ...='cd ../../..'
 alias reloadwindow='clear && neofetch'
+
+# network
+alias ipa4='ip -br -4 a'
