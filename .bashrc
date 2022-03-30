@@ -99,4 +99,6 @@ alias gp='git push'
 alias ga='git add'
 alias gs='git status'
 
-alias deploydoc='npm run deploy && git push'
+alias deploydoc='yarn deploy && git push'
+alias algoliascraper='docker run -it --env-file=.env -e "CONFIG=$(cat ./config.json | jq -r tostring)" algolia/docsearch-scraper'
+alias docall='cd /root/dev/lernjournal && algoliascraper && cd docusaurus && deploydoc'
